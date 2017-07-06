@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tanganna.myrecycleviewdemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_main_staggered"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="瀑布流"
+        android:background="#03fcf8"/>
+
+    <Button
+        android:id="@+id/btn_main_grid"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="网格布局"
+        android:background="#03fcf8"/>
+    <Button
+        android:id="@+id/btn_main_linear"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="线性布局"
+        android:background="#03fcf8"/>
+
+</LinearLayout>
